@@ -1,8 +1,7 @@
-
-
-.main-class1{
-position: relative;
-top:600px;
+/************************************Class Selectors - BEGIN************************************/
+.main-class1 {
+  position: relative;
+  top: 600px;
 }
 
 .weare-coming {
@@ -12,42 +11,13 @@ top:600px;
   font-weight: normal;
   letter-spacing: 4px;
   position: absolute;
-  bottom:250px;
-  left:130px;
+  bottom: 250px;
+  left: 130px;
   text-transform: uppercase;
 
 }
 
-span{
-  color: #413A3A;
-  font-weight:400;
-}
-
-
-.heroine-image{
-  width: 50%;
-  float:right;
-
-}
-
-.main-class2{
-  margin-left:130px;
-  width:35%;
-  color: #CE9797;
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 3px;
-  margin-bottom:0;
-  position:absolute;
-  top:400px;
-}
-
-
-body {
-  background-color: #ECE4E4;
-  margin:0;
-}
-
-.input-box__input{
+.input-box-input {
   border: 1px solid #CE9797;
   text-indent: 25px;
   color: #CE9797;
@@ -55,12 +25,12 @@ body {
   background-repeat: no-repeat;
   background-position: 80%;
   border-radius: 25px;
-  width: 75%;
+  width: 70%;
   height: 50px;
 }
 
-.input-box__submit-button{
-  background-image: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+.input-box-submit-button {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border-radius: 40px;
   box-shadow: -1px 15px 20px rgba(3, 3, 3, .1);
   border: none;
@@ -68,15 +38,48 @@ body {
   height: 100%;
   position: absolute;
   top: 0;
-  right:20%;
+  left: 60%;
   width: 90px;
 }
 
-.article-container__input-box{
+.article-container-input-box {
   position: relative;
 }
 
-.logo{
+.logo {
   position: absolute;
-  left:130px;
+  left: 130px;
+  padding-top: 2.5%;
 }
+
+.heroine-image {
+  width: 85%;
+  float: right
+}
+
+.main-class2 {
+  margin-left: 130px;
+  width: 86%;
+  color: #CE9797;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  position: absolute;
+  top: 400px;
+}
+
+/************************************Class Selectors - END************************************/
+
+/************************************Tag Selectors - BEGIN************************************/
+
+span {
+  color: #413A3A;
+  font-weight: 400;
+}
+
+body {
+  background-color: #ECE4E4;
+  margin: 0;
+}
+
+/************************************Tag Selectors - END************************************/
